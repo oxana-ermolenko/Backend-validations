@@ -66,8 +66,6 @@ RSpec.describe "CustomersControllers", type: :request do
       expect(customer.phone).not_to eq("123")
       expect(response).to render_template(:edit) 
     end
-      
- 
   end
   describe "delete a customer record" do
     it "deletes a customer record" do
